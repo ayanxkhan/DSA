@@ -14,7 +14,7 @@ void explainPair(){
     // cout << p.first << " " << p.second.first << " " << p.second.second;
 
 
-    // pair array {1,2} is index 0, {2,5} is index 1 and so on
+    // pair array {1,2} is index 0, {2,5} is index 1 and so on 
     pair <int , int> arr[] = {{1,2} , {2,5} , {5,1}};
     cout << arr[0].second;
 }
