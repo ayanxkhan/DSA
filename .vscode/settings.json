@@ -2,5 +2,9 @@
     "files.exclude": {
         "**/*.exe" : true
         
+    },
+    "files.associations": {
+        "checkpalindrome": "cpp",
+        "iostream": "cpp"
     }
 }
