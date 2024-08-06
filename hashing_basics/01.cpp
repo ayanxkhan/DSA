@@ -14,8 +14,11 @@ int main(){
     // in order to have  12th index i need a size of 13 bcz last array index is 12 
     int hash[13] = {0};
     for(int i =0;i<n;i++){
+
         hash[arr[i]] += 1;
     }
+
+
 
 
     int q;
