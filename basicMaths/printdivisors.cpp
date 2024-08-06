@@ -45,3 +45,5 @@ int main(){
 
 return 0;
 }
+
+// // time complexity = 0(sqrt(n)) + 0(n*log(n)) + 0(n*log(n))
