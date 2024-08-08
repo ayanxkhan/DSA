@@ -43,6 +43,11 @@ int main(){
     sort(ls.begin(),ls.end());
     for(auto it: ls) cout << it << " ";
 
+    // or
+    // for(auto it=ls.begin();it!=ls.end();it++){
+    //     cout << *it << " ";
+    // }
+
 return 0;
 }
 
