@@ -33,3 +33,34 @@ int main(){
     cout << func(arr,n);
     return 0;
 }
+
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int secondSmallest(vector<int>& arr,int n){
+//     int small  = arr[0];
+//     int sSmall = -1;
+
+//     for(int i=0;i<n;i++){
+//         if(arr[i]<small){
+//             sSmall = small;
+//             small = arr[i];
+//         }
+//         if(arr[i]>small && arr[i]< sSmall){
+//             sSmall = arr[i];
+//         }
+//     }
+//     return sSmall;
+// }
+
+// int main(){
+//     vector<int> arr={9,8,2,1,11};
+//     int n = arr.size();
+
+//     cout << secondSmallest(arr,n);
+//     return 0;
+// }
