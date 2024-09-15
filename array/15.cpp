@@ -43,4 +43,30 @@ int main(){
 }
 
 
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// void func(vector<int>& arr){
+//     vector<int> arr_copy = arr; // create a copy of the original vector
+//     sort(arr_copy.begin(), arr_copy.end());
+//     map<int, int> freq; // map to count frequency of each element
+//     for(int i=0; i<arr_copy.size(); i++){
+//         freq[arr_copy[i]]++;
+//     }
+//     for(auto& pair : freq){
+//         if(pair.second > 1){
+//             cout << pair.first << " "; // print duplicates
+//         }
+//     }
+// }
+
+// int main(){
+//     vector<int> arr={1,5,2,2,6,8,5,3,7,3,8,3};
+
+//     func(arr);
+//     return 0;
+// }
+
+
  

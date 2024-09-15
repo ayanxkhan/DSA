@@ -85,3 +85,30 @@ int main(){
     cout << removeDupl(arr,n);
     return 0;
 }
+
+
+
+
+
+// unsorted 
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int main(){
+//     vector<int> arr={2,4,4,1,1,3,7,8};
+//     int n = arr.size();
+
+//     set<int> set1={};
+//         for(int j=0;j<n;j++){
+//                 set1.insert(arr[j]);
+//             }
+
+//     for(auto it=set1.begin();it!=set1.end();it++){
+//         cout << *it << " ";
+//     }
+//     return 0;
+// }
+
+
+
+
