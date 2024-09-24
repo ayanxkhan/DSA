@@ -60,7 +60,7 @@
 // }
 
 
-
+//or question may be like counting distinct element in array 
 
 // approach 2 optimal using two pointer tc-O(N)
 #include<bits/stdc++.h>

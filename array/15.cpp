@@ -21,26 +21,26 @@
 //  Only 1 is occurring more than once in the given array.
 
 
-#include<bits/stdc++.h>
-using namespace std;
+// #include<bits/stdc++.h>
+// using namespace std;
 
-int func(vector<int>& arr){
-    sort(arr.begin(),arr.end());
-    for(int i=0;i<arr.size()-1;i++){
-        if(arr[i]==arr[i+1]){
-            cout << arr[i] << " ";
-        }
-    }
+// int func(vector<int>& arr){
+//     sort(arr.begin(),arr.end());
+//     for(int i=0;i<arr.size()-1;i++){
+//         if(arr[i]==arr[i+1]){
+//             cout << arr[i] << " ";
+//         }
+//     }
 
-}
+// }
 
-int main(){
-    vector<int> arr={1,5,2,2,6,8,5,3,7,3,8,3};
+// int main(){
+//     vector<int> arr={1,5,2,2,6,8,5,3,7,3,8,3};
 
-    func(arr);
-    return 0;
+//     func(arr);
+//     return 0;
 
-}
+// }
 
 
 
@@ -68,5 +68,27 @@ int main(){
 //     return 0;
 // }
 
+
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main() 
+{ 
+   int arr[] = {10, 30, 40, 20, 10, 20, 40, 10}; 
+   int n = sizeof(arr)/sizeof(arr[0]); 
+
+   unordered_map <int, int>mp;
+   int count_dis=0;
+
+   for(int i=0; i<n; i++) mp[arr[i]]++; 
+   for(auto it=mp.begin(); it!=mp.end(); it++)
+{ 
+        if(it->second!=1) cout<<it->first<<" ";
+   }
+   return 0;
+}
 
  
