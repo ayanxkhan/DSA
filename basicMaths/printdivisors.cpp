@@ -24,7 +24,7 @@
 using namespace std;
 
 int main(){
-    int num=12;
+    int num=15;
     // cin >> num;
 
     vector <int> ls;
