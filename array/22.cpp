@@ -46,3 +46,51 @@ int main(){
 
     return 0;
 }
+
+
+
+
+// #include<bits/stdc++.h>
+// using namespace std;
+
+// int checkPalindrome(int n){
+//     int temp = n;
+//     int rem;
+//     int rev = 0;
+    
+//     while(temp!=0){
+//         rem = temp % 10;
+//         rev = (rev * 10) + rem;
+//         temp = temp / 10;
+//     }
+    
+//     if(n == rev) return 1;
+    
+//     return 0;
+// }
+
+// int main(){
+//     int n;
+//     cin >> n;
+    
+//     int arr[n];
+    
+//     for(int i=0;i<n;i++){
+//         cin >> arr[i];
+//     }
+    
+//     int res = INT_MAX;
+    
+//     for(int i=0;i<n;i++){
+//         if(checkPalindrome(arr[i]) && res > arr[i]){
+//             res = arr[i];
+//         }
+//     }
+    
+//     if(res == INT_MAX){
+//         res = -1;
+//     }
+    
+//     cout << res;
+//     return 0;
+// }
