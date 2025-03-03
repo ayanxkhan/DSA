@@ -1,37 +1,29 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int findLargest(int arr[],int n){
-    int largest = 0;
+int main(){
+    vector<int> arr={1,0,2,0,0,4,5,0,1,8,7,2,0,1};
+    int n = arr.size();
 
+    vector<int> temp={};
     for(int i=0;i<n;i++){
-        if(arr[i]>largest){
-            largest = arr[i];
+        if(arr[i]!=0){
+            temp.push_back(arr[i]);
         }
     }
-    cout << "Largest Element is : "<< largest;
-}
 
-int main(){
-    int n;
-    cout << "Enter the size of array: ";
-    cin >> n;
 
-    int arr[n];
-
-    cout << "Enter the elements of array:";
-    for(int i=0;i<n;i++){
-        cin >> arr[i];
+    int nz = temp.size();
+    for(int i=0;i<nz;i++){
+        arr[i] = temp[i];
     }
 
-
-    cout << "The elements of array are: ";
-
-    for(int i=0;i<n;i++){
-        cout << arr[i] << " ";
+    for(int i=nz;i<n;i++){
+        arr[i] = 0;
     }
 
-    findLargest(arr,n);
+    for(auto it=arr.begin();it!=arr.end();it++){
+        cout << *it << " ";
+    }
     return 0;
-
 }

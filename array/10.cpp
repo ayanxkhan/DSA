@@ -72,3 +72,26 @@ int main(){
 //     return 0;
 
 // }
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int arr[] = {1, 2, 3, 4, 5, 3};
+    int n = sizeof(arr) / sizeof(arr[0]); // Calculate array size
+
+    double sum = 0;
+    
+    for (int i = 0; i < n; i++) {
+        sum += arr[i]; // Sum all elements
+    }
+    
+    cout << "Sum: " << sum << endl;
+
+    double avg = sum / double(n); // Convert n to double for decimal result
+    cout << "Average: " << fixed << setprecision(2) << avg; // 2 decimal places
+
+    return 0;
+}
