@@ -44,44 +44,44 @@ int main(){
 
 
 
-// if in output we have to give 0 and 1 
-#include<bits/stdc++.h>
-using namespace std;
+// // if in output we have to give 0 and 1 
+// #include<bits/stdc++.h>
+// using namespace std;
 
-int subarray(int arr1[],int arr2[],int n,int m){
+// int subarray(int arr1[],int arr2[],int n,int m){
 
-    set<int> s;
+//     set<int> s;
 
-    for(int i=0;i<n;i++){
-        s.insert(arr1[i]);
-    }
-
-
-    for(int i=0;i<m;i++){
-        if(s.find(arr2[i]) != s.end()){
-            return 0;
-        }
-    }
-
-    return 1;
-}
-
-int check(int arr1[],int arr2[],int n,int m){
-    if(subarray(arr1,arr2,n,m)){
-        return 1;
-    }
-    return 0;
-}
-
-int main(){
-    int arr1[]={1,2,3,4,5};
-    int arr2[]={34,78,63};
-
-    int n = sizeof(arr1)/sizeof(arr1[0]);
-    int m = sizeof(arr2)/sizeof(arr2[0]);
-
-    cout << check(arr1,arr2,n,m);
+//     for(int i=0;i<n;i++){
+//         s.insert(arr1[i]);
+//     }
 
 
-    return 0;
-}
+//     for(int i=0;i<m;i++){
+//         if(s.find(arr2[i]) != s.end()){
+//             return 0;
+//         }
+//     }
+
+//     return 1;
+// }
+
+// int check(int arr1[],int arr2[],int n,int m){
+//     if(subarray(arr1,arr2,n,m)){
+//         return 1;
+//     }
+//     return 0;
+// }
+
+// int main(){
+//     int arr1[]={1,2,3,4,5};
+//     int arr2[]={34,78,63};
+
+//     int n = sizeof(arr1)/sizeof(arr1[0]);
+//     int m = sizeof(arr2)/sizeof(arr2[0]);
+
+//     cout << check(arr1,arr2,n,m);
+
+
+//     return 0;
+// }
